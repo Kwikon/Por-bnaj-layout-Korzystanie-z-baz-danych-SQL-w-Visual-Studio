@@ -1,0 +1,29 @@
+1.Zadanie
+1.1 LinearLayout
+LinearLayout, czyli layout liniowy jest to układ, w którym elementy układane są liniowo. Można je układać na dwa sposoby: w pionie (z góry do dołu) i w poziomie (od lewej do prawej strony).
+Atrybutem jaki musi posiadać LinearLayout jest atrybut ustawiający orientację. Tak on wygląda: android:orientation=”orientation” w argumencie podaje się orientację pionową (vertical) lub poziomą (horizontal).
+
+1.2 FrameLayout
+FrameLayout to jeden z najprostszych układów do organizowania kontrolek widoku. Są przeznaczone do blokowania obszaru ekranu. FL powinien być używany do wyświetlania podglądu podrzędnego może być trudne,
+aby poszczególne widoki w określonych obszarach ekranu nie nachodziły na siebie.
+
+1.3 TableLayout
+TableLayout to system, w którym elementy są ułożone w wiersze i kolumny tworzonej przez nas tabeli, z dowolną liczbą kolumn i wierszy. TableLayout ma takie same właściwości orientacji jak LinearLayout. 
+Ponadto zawiera tylko ogólne właściwości każdego układu, o którym mówiłem w tym poście. Jednak w TableLayout, aby tworzyć różne tabele, najlepiej ustawić orientację na pionową ze względu na sposób 
+rozmieszczenia elementów tabeli, co zostanie omówione później.
+
+Inne podobieństwa:
+Wszystkie typy są przeznaczone do budowania układów programów.
+Inne róznice:
+Kazdy typ z layoutów ma inne mozliwości, opcje i przeznaczenie.
+Inne wady:
+LinearLayout posiada sławszą wydajność i jest mniej intuicyjny pod względem oferowanych narzędzi.
+
+2.Zadanie
+
+2.1 Jak utworzyć i zaktualizować plik lokalnej bazy danych?
+Za pomocą programu Visual Studio można tworzyć i aktualizować pliki lokalnej bazy danych w programie SQL Server Express LocalDB. Bazy danych można również tworzyć,
+wykonując instrukcje Transact-SQL w oknie Eksploratora obiektów programu SQL Server Tools w programie Visual Studio. W tym temacie utworzymy plik mdf i użyjemy projektanta tabel, aby dodać tabele i klucze.
+2.2 Jak przykładowo tworzymy plik lokalnej bazy danych?
+Utwórz nowy projekt aplikacji Windows Forms (.NET Framework) i nadaj mu nazwę PrzykładowaBazaDanychWalkthrough. Na pasku menu wybierz pozycję projekt > Dex nowy element. Na liście szablonów projektów przewiń w dół i 
+wybierz Baza danych oparta na usługach. Nazwij bazę danych PrzykładowaBazaDanych i kliknij przycisk Dodaj.
